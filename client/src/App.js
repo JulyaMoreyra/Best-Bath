@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import "./App.css";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 
 function App() {
   const [data, setData] = useState("");
@@ -50,14 +47,14 @@ function App() {
           <form onSubmit={handleSubmit}>
             <div className="input-group mb-3 poppins-regular ">
               <span
-                className="input-group-text poppins-regular petshop-title input-bg"
+                className="input-group-text poppins-regular petshop-title"
                 id="addon-wrapping"
               >
                 Data
               </span>
               <input
                 type="text"
-                className="form-control input-bg"
+                className="form-control "
                 value={data}
                 onChange={(e) => setData(e.target.value)}
                 placeholder="dd/mm/aaaa"
