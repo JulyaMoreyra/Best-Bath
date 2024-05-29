@@ -1,4 +1,5 @@
 # Best-Bath
+![Versão desktop](https://github.com/JulyaMoreyra/Best-Bath/assets/130570629/897f56d6-a786-4d1d-b026-e39f2ae54eef)
 
 ## O problema
 
